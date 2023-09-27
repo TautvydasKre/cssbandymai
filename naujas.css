@@ -1,0 +1,23 @@
+h2 {
+    color: green
+    ;
+}
+span {
+    color:  rgba(206, 176, 5, 0.671);
+}
+.under {
+    text-decoration: underline;
+    color:blue
+}
+.miestas {
+    color: blue;
+}
+.lang {
+    color: rgb(216, 86, 216);
+}
+.form {
+    color: orangered;
+}
+ul li ul li {
+    color: red;
+}

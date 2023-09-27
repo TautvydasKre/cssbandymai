@@ -1,0 +1,45 @@
+.a1 {
+    width:200px;
+    height:200px;
+    object-fit:fill;
+}
+.a2 {
+    width:200px;
+    height:200px;
+    object-fit:cover;
+}
+.a3 {
+   width:200px;
+    height:200px;
+    object-fit:contain;
+}
+.a4 {
+   width:200px;
+    height:200px;
+    object-fit:none;
+}
+.a5 {
+   width:200px;
+    height:200px;
+    object-fit: scale-down;
+}
+.a6{
+   width:200px;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/54e7a1a6e4b08db9da801ded/4f509146-8d70-4f84-9e52-197df4279616/82.jpg)
+    background-repeat:;
+}
+.a7 {
+   width:200px;
+    height:200px;
+    object-fit:
+}
+.a8{
+   width:200px;
+    height:200px;
+    object-fit:
+}
+.a9{
+   width:200px;
+    height:200px;
+    object-fit:
+}

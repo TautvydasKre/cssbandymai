@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>karotjimo uzduotis</title>
+    <link rel="stylesheet" href="naujas.css">
+</head>
+<body>
+    <section></section>
+    <article>
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla cum nobis sint itaque doloremque minus voluptas voluptatum eum, <span> exercitationem qui ipsa </span>ipsum, officia, vel quidem nam maxime aspernatur quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis non, <span>nisi ratione iure nam harum, ab quia nulla fuga </span>dolor eligendi, ducimus neque suscipit laborum atque esse. Porro, quisquam! Molestias. Lorem, ipsum dolor sit amet consectetur <span> elit. Accusantium </span>delectus, harum at alias quasi minima quam sunt! Provident veniam, optio, quia adipisci ea placeat consequuntur unde saepe, sed fuga minima!</p>
+    </article>
+    <section></section>
+    <article>
+        <h2>Our Locations</h2>
+        <ul>
+            <li>USA
+                <ul>
+                    <li><span class="under">New york</span></li>
+                    <li><span class="under">Columbus</span></li>
+                    <li><span class="under">Austin</span></li>
+                    <li><span class="under">Philly</span></li>
+                </ul>
+            </li>
+            <li>World
+                <ul>
+                    <li><span class="under">Ottawa</span></li>
+                    <li><span class="under">Sydney</span></li>
+                </ul>
+            </li>
+        </ol>
+    </article>
+        <h2>Upcoming Classes</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Locations</th>
+                    <th>Topic</th>
+                </tr>
+                <tr>
+                    <td><span class="miestas">New York</span></td>
+                    <td><span class="lang">JavaScript & jQuery</span></td>
+                </tr>
+                <tr>
+                    <td><span class="miestas">San Francisco</span></td>
+                    <td><span class="lang">HTML & CSS</span></td>
+                </tr>
+            </thead>
+        </table>
+        <article>
+            <h2>Sign Up!</h2>
+            <form>
+                <div>
+                    <label for="name" class="form">Name</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div>
+                    <label for="email" class="form">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div>
+                    <label for="location" class="form">Location</label>
+                    <select name="city" if="city">
+                        <option label="New York" value="New York">New York</option>
+                        <option label="Sanfrancisco" value="Sanfrancisco">Sanfrancisco</option>
+                    </select>
+                </div>
+                <fieldset>
+                    <legend class="form">Gender</legend>
+                <div>
+                    <label for="gender" class="form">Gender</label>
+                    <input type="radio" name="gender" id="male" required>
+                    <label for="male" class="form">Male</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female" class="form">Female</label>
+                </div>
+            </fieldset>
+                <div>
+                    <label class="form">Experience</label>
+                <textarea id="experience" name="experience" rows="2" cols="20"></textarea>
+            </div>
+            <div><button type="submit">Sign up</button></div>
+            </form>
+        </article>
+</body>
+</html>

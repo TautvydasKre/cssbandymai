@@ -1,0 +1,22 @@
+.container1{
+    background-image: url(index.html);
+
+    height : 100vh;
+    // set size & stop image repetition
+    background-repeat : no-repeat;
+    background-size : contain;
+}
+.container2{
+    background-image: url(https://img.freepik.com/premium-photo/there-is-small-plant-growing-out-hole-ground-generative-ai_902049-48815.jpg?size=626&ext=jpg.html);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.container3{
+    height: 200vh;
+    background-image: url(https://img.freepik.com/premium-photo/earth-galaxy-elements-this-image-furnished-by-nasa_717440-854.jpg?size=626&ext=jpg" alt="dangus);
+    background-repeat: round;
+    background-color : black;
+    background-repeat :round;
+   
+}
