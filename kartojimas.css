@@ -1,0 +1,15 @@
+h3{
+    color: darkgreen;
+}
+.pirmas p:first-child {
+    background-color: red;
+}
+.pirmas p:nth-child(2){
+background-color: green;
+}
+.first:first-line {
+    color: rebeccapurple;
+}
+.visit:visited {
+    color:yellow;
+}
