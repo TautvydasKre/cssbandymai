@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+   
+.remeliui {
+    height: 200px;
+    width: 400px;
+    border: 2px solid greenyellow;
+    border-radius: 15px;
+    background-image: url(https://images.photowall.com/products/46853/jungle.jpg?h=699&q=85);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+img{
+    background-image: url(https://www.vrk.lt/statiniai/puslapiai/rinkimai/1304/rnk1630/kandidatai/kandImg/photo_2433317.jpeg);
+    float: right;
+}
+h2{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: rgb(255, 0, 208);
+    font-size: xx-large;
+}
+h6{font-family: "Lucida Console", "Courier New", monospace;
+color: rgb(255, 0, 208);
+font-size: medium;}

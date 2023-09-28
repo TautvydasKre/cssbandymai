@@ -1,0 +1,21 @@
+*{
+ margin:0;
+}
+
+.bandom::before{
+content: "";
+background-image: url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_640.jpg);
+background-position: center;
+background-size: cover;
+opacity: 70%;
+position: absolute;
+top:0;
+bottom: 0;
+right: 0;
+left: 0;
+width: auto;
+height: auto;
+z-index: -1;
+}
+p::-moz-selection {background-color:red;}
+p ::selection {background-color:red;}
