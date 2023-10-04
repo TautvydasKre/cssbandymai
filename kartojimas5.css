@@ -1,0 +1,60 @@
+.h1 {
+opacity: 80%;
+text-align: center;
+position: fixed;
+    top: 0;
+    display:inline-block;
+
+   
+}
+body{
+    background-image: url(fotos/skynews-xl-bully-american-bully_6272803.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+.parent{
+    float: left;
+    position: relative;
+    background-color: gray;
+    height: 600px;
+    width: 700px;
+}
+.child{
+    border: 2px solid black;
+    margin-left: 280px;
+    margin-top: 170px;
+    background-color: lightcoral;
+    height: 100px;
+    width: 100px;
+}
+.parent1{
+    border: 2px solid red;
+    float: left;
+    position: relative;
+    background-color: gray;
+    margin-left: 10px;
+    height: 100px;
+    width: 100px;
+}
+.child1{
+border: 2px color black;
+    margin-left: 0px;
+    margin-top: 55px;
+    background-color: lightcoral;
+    height: 50px;
+    width: 50px;
+    outline-style: outset;
+}
+p{
+    margin-top: 100px;
+}
