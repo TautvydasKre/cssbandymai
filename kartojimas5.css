@@ -12,7 +12,6 @@ body{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    
     position: absolute;
     top:0;
     bottom: 0;
@@ -21,6 +20,7 @@ body{
     width: auto;
     height: auto;
     z-index: -1;
+    : 25%;
 }
 .parent{
     float: left;

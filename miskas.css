@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    background-image:url(fotos/13143_0c878e5c901bfb2e7e55dd661599a28c.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -2;
+}   
+.fonas{
+    content: "";
+    padding-top: 50px;
+    margin-top: 300px;
+    margin-left: 500px;
+    padding: 100px 300px;
+    background: #444;
+    height: 100px;
+    width: 300px;
+    opacity: 0.7;
+    z-index: -1;
+    position: absolute;
+}
+.tekstas{
+    text-align: center;
+    position: relative;
+    object-fit: cover;
+    opacity: 1;
+    z-index: 1;
+}
